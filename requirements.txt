@@ -1,3 +1,6 @@
 -e .
 tox
-pytest-django==4.5.2
+tox-gh-actions
+pytest-django
+pytest
+django
