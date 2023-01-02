@@ -1,2 +1,3 @@
 -e .
 tox
+pytest-django==4.5.2

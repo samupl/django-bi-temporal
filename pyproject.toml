@@ -1,3 +1,6 @@
 [build-system]
-requires = ['setuptools>=40.8.0', 'wheel']
+requires = ['setuptools>=40.8.0', 'wheel', 'django']
 build-backend = 'setuptools.build_meta'
+
+[tool.mypy]
+plugins = 'mypy_django_plugin.main'
